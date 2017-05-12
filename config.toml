@@ -27,18 +27,18 @@ theme = "sustain"
   Stackoverflow = "4001148"
 
 ## Main Menu
-[[menu.main]]
-  name = "blog"
-  weight = 100
-  identifier = "blog"
-  url = "/blog/"
+# [[menu.main]]
+#   name = "blog"
+#   weight = 100
+#   identifier = "blog"
+#   url = "/blog/"
 [[menu.main]]
   name = "projects"
   identifier = "projects"
   weight = 200
-  url = "/projects/"
+  url = "https://github.com/schrismartin?tab=repositories"
 [[menu.main]]
   name = "resume"
   identifier = "resume"
   weight = 300
-  url = "/resume/"
+  url = "http://schrismartin.gitlab.io/resume/"
