@@ -1,4 +1,4 @@
-cd ~/Projects/schrismartin.github.io
+cd ~/Projects/web/schrismartin.github.io
 git checkout develop
 rm -rf public
 git stash

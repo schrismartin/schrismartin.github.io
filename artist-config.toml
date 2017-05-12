@@ -1,0 +1,105 @@
+# Site settings
+baseurl = "http://schrismart.in/"
+languageCode = "en-us"
+title = "Chris Martin"
+theme = "hugo-artists-theme"
+
+[params]
+
+	# You can use Markdown syntax for urls [text](//url.to/source) for
+	# most longer texts.
+
+	# To provide some metadata for search engines feel free to add a few
+    # information about you and your website.
+	name = "Chris Martin"
+	description = "A fan of heights and small places."
+
+	# Since this template is static, the contact form uses www.formspree.io as a
+	# proxy. The form makes a POST request to their servers to send the actual
+	# email. Visitors can send up to a 1000 emails each month for free.
+    #
+    # What you need to do for the setup?
+    #
+    # - set your email address under 'email' below
+    # - upload the generated site to your server
+    # - send a dummy email yourself to confirm your account
+    # - click the confirm link in the email from www.formspree.io
+    # - you're done. Happy mailing!
+	email = "schrismartin@utk.edu"
+
+
+	# Header an navigation
+	#
+	# To change the header background the 'hero-bg-jpg' at 'static/img'.
+	# Do the same with the logo ('logo.svg').
+	# But keep the original filename!
+	[params.header]
+		title = "Chris Martin"
+		shortBio = "A fan of heights and small places"
+
+
+	# About section
+	#
+	# Replace the 'avatar.jpg' under 'static/img' with your own image.
+	[params.about]
+		title = "About me"
+		bio = "**I like to make things that ease the mundane.** Whether that's by building an [app](http://www.available-app.com) to make it easier for the busy-body to meet with his friends, or by creating [a better way](http://www.schrismart.in/jassem/) to see what your assembly code is doing under-the-hood. Bring me a problem, and I'll bring you a solution that you can use when you need it most."
+
+		[[params.about.skills]]
+			name = "Swift"
+			value = 8
+
+		[[params.about.skills]]
+			name = "C++"
+			value = 5
+
+		[[params.about.skills]]
+			name = "Python"
+			value = 5
+
+		[[params.about.skills]]
+			name = "iOS Application Design"
+			value = 7
+
+		[[params.about.skills]]
+			name = "iOS GUI Design"
+			value = 7
+
+		[[params.about.skills]]
+			name = "Git"
+			value = 7
+
+	# Contact secion
+	[params.contact]
+		title = "Information"
+
+		# The following social network icons are available:
+		# 'twitter' / 'facebook' / 'github' / 'pinterest' 'google-plus' / 'linkedin'
+		# 'youtube' / 'instagram' / 'dribbble' / 'behance' / 'soundcloud' / 'vine' / 'link'
+		
+		[[params.contact.social]]
+			icon = "github"
+			link = "//www.github.com/schrismartin"
+
+		[[params.contact.social]]
+			icon = "linkedin"
+			link = "//www.linkedin.com/in/schrismartin"
+
+		[[params.contact.social]]
+			icon = "instagram"
+			link = "//www.instagram.com/schrismartin"
+
+		[[params.contact.social]]
+			icon = "resume"
+			link = "//www.schrismart.in/resume/"
+
+	[params.form]
+		title = "Contact Me"
+		# Form fields
+		name = "Name"
+		email = "Email"
+		message = "What can I do for ya?"
+		buttonText = "Send"
+
+	[params.footer]
+		copyright = "© 2016 Chris Martin"

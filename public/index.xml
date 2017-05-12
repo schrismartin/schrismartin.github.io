@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chris Martin</title>
+    <link>http://schrismart.in/index.xml</link>
+    <description>Recent content on Chris Martin</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Tue, 18 Apr 2017 19:13:24 -0400</lastBuildDate>
+    <atom:link href="http://schrismart.in/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>contact</title>
+      <link>http://schrismart.in/contact/</link>
+      <pubDate>Tue, 18 Apr 2017 19:13:24 -0400</pubDate>
+      
+      <guid>http://schrismart.in/contact/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>about</title>
+      <link>http://schrismart.in/about/</link>
+      <pubDate>Tue, 18 Apr 2017 19:13:19 -0400</pubDate>
+      
+      <guid>http://schrismart.in/about/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://schrismart.in/work/proj-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://schrismart.in/work/proj-1/</guid>
+      <description>&lt;p&gt;Oak Ridge National Laboratory&amp;rsquo;s Titan Supercomputer is one hell of a beast. Spanning 8x25 large cabinets, the massive computer hosts to 18688 compute nodes with 16 cores each. With such a large feat of hardware, it requires some regorous monitoring.&lt;/p&gt;
+
+&lt;p&gt;Each compute node is host to several temperature sensors that constantly streams log data into a massive database. At time of employment, there was no easy way to get a distinct visualization of heat distribution, change over time, etc.&lt;/p&gt;
+
+&lt;p&gt;This project included a graphical depiction of the supercomputer using colors to help identify which cabinets were hotter than others. In each cabinet, one could view the general temperature of the components of each compute node, and at the lowest level, temperatures of each component of the node. View modes were implemented that would give the averaged temperature of each cabinet, show the coolest of the nodes in the cabinet, or the hottest. The visualization would also alarm when a node had exceeded a pre-defined temperature.&lt;/p&gt;
+
+&lt;p&gt;The project was underway for nearly two years as an ongoing internship project. During that time, data was changed from being streamed in at realtime (and dumped on termination of application), to stored in a database and retrieved in intervals. Temperature data was then pulled from that database to help identify the causes of computation faults in compute nodes.&lt;/p&gt;
+
+&lt;p&gt;Project was done entirely using &lt;a href=&#34;http://www.blender.org&#34;&gt;Blender3D&lt;/a&gt;&amp;rsquo;s game engine, interfaced with using Python, and databased using a MySQL instance.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://schrismart.in/work/proj-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://schrismart.in/work/proj-2/</guid>
+      <description>&lt;p&gt;While interning at the Oak Ridge National Laboratory, initiaves were underway to reduce the Lab&amp;rsquo;s environmental footprint. As a part of that, they requested an easy (and attractive) interface for tracking their progress toward a Power Usage Effectiveness and Water Usage Effectiveness score of an ideal 1.0. Facebook had created a &lt;a href=&#34;https://github.com/facebook/puewue-frontend&#34;&gt;frontend&lt;/a&gt; and &lt;a href=&#34;https://github.com/facebook/puewue-backend&#34;&gt;backend&lt;/a&gt; web application for tracking such data. Written in JavaScript and Ruby, the application displayed four metrics in near-realtime, and held on to historical data for up to 1 year.&lt;/p&gt;
+
+&lt;p&gt;Converting Facebook&amp;rsquo;s implementation to match the data and security infrustructure of ORNL played a large part in the project. Learning Ruby and JavaScript as well as interfacing with tools such as Redis and ElasticSearch made the experience educational and applicable outside ORNL. The web app is still in use internally today.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://schrismart.in/work/proj-3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://schrismart.in/work/proj-3/</guid>
+      <description>
+
+&lt;p&gt;Available makes planning around others&amp;rsquo; schedules much easier. Simply put in your events, be it a one-time baseball game or a repeating class, and Available shows everyone that you&amp;rsquo;re not around to meet with others at those specific times. On the other hand, it makes planning events incredibly easy by showing you when your friends aren&amp;rsquo;t available. Lunch time and you don&amp;rsquo;t want to eat alone? Check in your favorites view to see which of your best friends are currently available! Trying to see a movie and you want to know what time to do it? Tack in all your friends and see when everyone&amp;rsquo;s hanging around bored with nothing to do! Available makes planning small tasks incredibly easy, and with power features including avanced grouping, you can control who can see you&amp;rsquo;re available and who can&amp;rsquo;t!&lt;/p&gt;
+
+&lt;p&gt;&lt;img align=&#34;right&#34; width=&#34;200&#34; style=&#34;margin: 20px&#34; src=&#34;img/work/proj-3/img-1.png&#34;&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;favorites&#34;&gt;Favorites&lt;/h2&gt;
+
+&lt;p&gt;At a glance, see the status of up to ten of your best friends. Colored green when they&amp;rsquo;re available and red when not, this screen makes it dead simple to see who&amp;rsquo;s standing idle and who&amp;rsquo;s too busy to hang out with you. If you&amp;rsquo;re busy for a while and hoping to hang out with them soon, you can see how much longer they&amp;rsquo;re busy or how much longer they&amp;rsquo;re available.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img align=&#34;left&#34; width=&#34;200&#34; style=&#34;margin: 20px&#34; src=&#34;img/work/proj-3/img-2.png&#34;&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;compare&#34;&gt;Compare&lt;/h2&gt;
+
+&lt;p&gt;The real power of Available comes in the compare function, where you can take up to 10 of your friends and find a time that fits in all of your schedules. If you&amp;rsquo;re trying to figure out who&amp;rsquo;s in the office and not in a meeting for a certain time, punch in all the members who need to be at the meeting and watch their combined available times show you exactly when you need to plan that celebratory birthday lunch. But be prepared - the more people you compare, the less time open time you&amp;rsquo;ll see!&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img align=&#34;right&#34; width=&#34;200&#34; style=&#34;margin: 20px&#34; src=&#34;img/work/proj-3/img-3.png&#34;&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;schedule&#34;&gt;Schedule&lt;/h2&gt;
+
+&lt;p&gt;Available allows you to put all of your events in a single, linear system, giving you the freedom to distinguish which events are ones you want to block off for others, and others (like birthdays) that clutter your home calendar. The schedule view shows you how much time you have left in your current commitment, and also how much time you have available until your next! If you&amp;rsquo;re planning on skipping your French class on Tuesday (skipping class is never advised), just swipe on the entry for that class and say you won&amp;rsquo;t be there, and everyone will then see that you&amp;rsquo;re down to hang out during that time!&lt;/p&gt;
+
+&lt;p&gt;Available intelligently puts &amp;ldquo;breaks&amp;rdquo; between your events when you only have a short amount of time between things. This way, your friends don&amp;rsquo;t start texting you at every 30 minute break you have. You still need time to breathe!&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img align=&#34;left&#34; width=&#34;200&#34; style=&#34;margin: 20px&#34; src=&#34;img/work/proj-3/img-4.png&#34;&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;profile&#34;&gt;Profile&lt;/h2&gt;
+
+&lt;p&gt;Your profile is your one-stop-shop for seeing how other people can see you! Others&amp;rsquo; profiles look identical to yours, so you can clearly see what kinds of free time your friends have to work with. The simple interface quickly gives you an idea of what kind of time you can heckle eachothers for, and shows those 30 minute breathers as &amp;ldquo;busy,&amp;rdquo; so you know you&amp;rsquo;re not bothering someone who has only a few short minutes to make a mad dash across town between appointments. Available automatically connects to Facebook to get your profile picture and cover photo, but you can change these at any time to add your own personal touch.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img align=&#34;right&#34; width=&#34;200&#34; style=&#34;margin: 20px&#34; src=&#34;img/work/proj-3/img-5.png&#34;&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;power-features&#34;&gt;Power Features&lt;/h2&gt;
+
+&lt;p&gt;But you don&amp;rsquo;t want the entire world to see when you&amp;rsquo;re busy and when you&amp;rsquo;re not. Available comes with its own friend system, so you can custom add whoever you want to be able to mutually share when you&amp;rsquo;re not doing things. We take your Facebook friend list and cross reference it with who has the app. Send a request and have them approve it and you&amp;rsquo;re good to go!&lt;/p&gt;
+
+&lt;p&gt;But that&amp;rsquo;s not the only way you can distinguish who sees what. If you feel so inclined, you can create many different groups such as Work, BFF&amp;rsquo;s, Running Club, and The Great Bakers. This way, when you make events, you can make yourself &amp;ldquo;Selectively Available&amp;rdquo; to members of that particular group! So if you&amp;rsquo;ve got a cooking class you take in the evenings on Tuesday and Thursday, your friends in that class can see that you&amp;rsquo;re busy, but that you&amp;rsquo;ve decided that you&amp;rsquo;ll kind-of be available to them for whatever reason. But everyone that isn&amp;rsquo;t in that group will just see you as unavailable!&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;technical&#34;&gt;Technical&lt;/h2&gt;
+
+&lt;p&gt;This project was made during the days of the Parse BAAS Framework, which has sense been shut down. It is on my to-do list to write a custom backend and host it as a fully-functioning app. Furthermore, the app in its completion was only released as a Beta app through Apple&amp;rsquo;s TestFlight program. Its availablility through TestFlight has since expired, but feel free to contact me if interested and I will attempt to quickly restore its place!&lt;/p&gt;
+
+&lt;p&gt;Further information can be found at on the app&amp;rsquo;s website at &lt;a href=&#34;http://www.available-app.com&#34;&gt;www.available-app.com&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://schrismart.in/work/proj-4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://schrismart.in/work/proj-4/</guid>
+      <description>
+
+&lt;p&gt;StudyLoop project can be found at &lt;a href=&#34;http://www.getstudyloop.com&#34;&gt;www.getstudyloop.com&lt;/a&gt;.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;about&#34;&gt;About&lt;/h2&gt;
+
+&lt;p&gt;StudyLoop is a Web/iOS app imagined by &lt;a href=&#34;http://alex.klibisz.com&#34;&gt;Alex Klibisz&lt;/a&gt; and &lt;a href=&#34;http://samrose.me&#34;&gt;Sam Rose&lt;/a&gt; to help students collaborate with other students in their classes throughout their coursework at their university. Built to be modular and applicable to any university, StudyLoop allows selection of individual classes for your specific university and automatically puts you in a multi-room chat interface. Using &amp;ldquo;loops,&amp;rdquo; students can break up each class by assignment, exam, etc and only subscribe to comments/messages built for that specific area of interest.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;involvement&#34;&gt;Involvement&lt;/h2&gt;
+
+&lt;p&gt;My involvement with the project was exclusively on the iOS app. My time was spent concepting and implementing a better user-onboarding technique, as well as fixing UI elements and inner workings to bring a more polished and efficient experience. I introduced pagination of the chat interface, more efficient loop muting, app deep-linking with push notifications, among other smaller quality-of-life changes.&lt;/p&gt;
+
+&lt;hr /&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://schrismart.in/work/proj-5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://schrismart.in/work/proj-5/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;img/work/proj-5/Splash.jpg&#34; alt=&#34;SplashScreen&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Who Quote was a small project put together at HackGSU 2016 from concept to completion over the course of 36 hours. With this app, a user begins by picking from a list of categories.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;img/work/proj-5/Categories.jpg&#34; alt=&#34;Categories&#34; /&gt;
+Suppose the user picks &amp;ldquo;Politicians.&amp;rdquo; Who Quote then scrapes twitter to from a list of pre-defined users to grab a tweet. The player must then identify the politician who said that quote.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;img/work/proj-5/PlayGame.jpg&#34; alt=&#34;PlayGame&#34; /&gt;
+A game consists of 5 quotes, and upon completion, you can see a list of your previous scores.&lt;/p&gt;
+
+&lt;p&gt;In future versions, we may decide to implement a global leaderboard as well as more categories. The current version only supports Politicians, but the backend can be updated to include more categories without needing an update for the app!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://schrismart.in/work/proj-6/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://schrismart.in/work/proj-6/</guid>
+      <description>
+
+&lt;p&gt;RecipEZ was a hackathon project for CatHacks2016 at the University of Kentucky.&lt;/p&gt;
+
+&lt;p&gt;Given 26 hours, RepicEZ was created from concept to completion to be a polished frontend iOS experience, as well as interface with the Pebble Smartwatch to add hands-free functionality.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;problem&#34;&gt;Problem&lt;/h2&gt;
+
+&lt;p&gt;When cooking with a new recipe, one often uses their hands to juggle several ingredients and their residue. Touching an iPhone every few minutes with greasy or powdery hands isn&amp;rsquo;t ideal.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;solution&#34;&gt;Solution&lt;/h2&gt;
+
+&lt;p&gt;We decided to create an app where, once selecting a recipe, could be interfaced with entirely using a Pebble smartwatch using hand gestures. Simply raise the watch to see the current step of the recipe, and flick the wrist to advance to the next step. Careful calibration allowed us to identify gestures that would be difficult to accidentally perform.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;involvement&#34;&gt;Involvement&lt;/h2&gt;
+
+&lt;p&gt;I created the frontend iOS applcation in its entirety. &lt;a href=&#34;http://www.samrose.me&#34;&gt;Sam Rose&lt;/a&gt; created the bridge that interacted between the app and the Pebble Watch, while Paine Leffler created a Pebble Cloud application to control the watch when unpaired from the phone. &lt;a href=&#34;http://alex.klibisz.com&#34;&gt;Alex Klibisz&lt;/a&gt; created the server backend used for caching of recipies and ingredient data (pulled from Wolfram Alpha&amp;rsquo;s API).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://schrismart.in/work/proj-7/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://schrismart.in/work/proj-7/</guid>
+      <description>
+
+&lt;p&gt;Project can be found at &lt;a href=&#34;http://schrismart.in/jassem/&#34;&gt;schrismart.in/jassem/&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;about&#34;&gt;About&lt;/h2&gt;
+
+&lt;p&gt;Jassem (short for Jim-assembler) is a port for &lt;a href=&#34;http://web.eecs.utk.edu/~plank/&#34;&gt;Dr. James Plank&lt;/a&gt;&amp;rsquo;s Assembly programming language, used in his System Programming (COSC360) class at the &lt;a href=&#34;www.utk.edu&#34;&gt;University of Tennesse, Knoxville&lt;/a&gt;.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;usage&#34;&gt;Usage&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Input assembly code (written in Dr. Plank&amp;rsquo;s jassem language) in the Assembly field. There is a convenience text area for C code to aid in your writing.&lt;/li&gt;
+&lt;li&gt;Click the Compile button. This also doubles as a reset button if you wish to go back to the beginning of the simulation.&lt;/li&gt;
+&lt;li&gt;Press &amp;ldquo;Step Forward&amp;rdquo; to increment by one step. You will see the next step in the Code section increment by one, and the &lt;code&gt;pc&lt;/code&gt; register will increment to match the blue highlight.&lt;/li&gt;
+&lt;li&gt;Again, if you wish to replay the simulation, you&amp;rsquo;ll need to re-compile.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;code&gt;pc&lt;/code&gt; (Programming Counter), &lt;code&gt;fp&lt;/code&gt; (Frame Pointer), and &lt;code&gt;sp&lt;/code&gt; (Stack Pointer) are all highlighted in blue, brown, and green respectively to help you better locate entries in the Stack and Code sections.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;involvement&#34;&gt;Involvement&lt;/h2&gt;
+
+&lt;p&gt;Project was built in collaboration with &lt;a href=&#34;http://www.github.com/mbadams5&#34;&gt;Mark Adams&lt;/a&gt; in order to increase familiarity with the Jassem language. Web app was also built to increase familiarity with Javascript (AngularJS) frameworks as well as general web development. Created to be a resource to other students taking COSC360.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://schrismart.in/work/proj-8/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://schrismart.in/work/proj-8/</guid>
+      <description>&lt;p&gt;Writeup of this project is upcoming.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
