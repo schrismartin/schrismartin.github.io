@@ -1,4 +1,4 @@
-baseurl = "schrismart.in/"
+baseurl = "http://schrismart.in/"
 languageCode = "en-US"
 title = "Chris Martin"
 # Enable comments by entering your Disqus shortname
@@ -27,11 +27,11 @@ theme = "sustain"
   Stackoverflow = "4001148"
 
 ## Main Menu
-# [[menu.main]]
-#   name = "blog"
-#   weight = 100
-#   identifier = "blog"
-#   url = "/blog/"
+[[menu.main]]
+  name = "blog"
+  weight = 100
+  identifier = "blog"
+  url = "/blog/"
 [[menu.main]]
   name = "projects"
   identifier = "projects"
