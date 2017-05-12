@@ -14,6 +14,8 @@ theme = "sustain"
   avatar = "avatar.jpg"
   author = "Chris Martin"
   description = "iOS Developer"
+  projects = "https://github.com/schrismartin?tab=repositories"
+  resume = "http://schrismartin.gitlab.io/resume/"
 
   # Custom assets can be linked with their paths relative to static/
   custom_css = []
